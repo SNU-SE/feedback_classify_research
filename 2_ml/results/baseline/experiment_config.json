@@ -1,0 +1,45 @@
+{
+  "Date": "2026-01-28 17:16:34",
+  "Seeds": [
+    42,
+    43,
+    44
+  ],
+  "Vectorizations": [
+    "V1_Word",
+    "V2_Char",
+    "V3_Chi2"
+  ],
+  "N_Classifiers": 14,
+  "Classifiers": [
+    "LR",
+    "SVM-L",
+    "SVM-RBF",
+    "MNB",
+    "CNB",
+    "KNN",
+    "DT",
+    "RF",
+    "GB",
+    "XGB",
+    "LGBM",
+    "Hard Voting",
+    "Soft Voting",
+    "Stacking"
+  ],
+  "CV_Folds": 10,
+  "CV_Method": "Stratified K-Fold",
+  "N_Reproducibility_Repeats": 3,
+  "V3_Chi2_K": 5000,
+  "Total_Combinations": 126,
+  "Best_Combination": {
+    "Vectorization": "V1_Word",
+    "Classifier": "Soft Voting",
+    "Accuracy_Mean": 0.8478,
+    "Accuracy_Std": 0.0097,
+    "F1_Macro_Mean": 0.769,
+    "F1_Macro_Std": 0.0079,
+    "Kappa_Mean": 0.8059,
+    "Reproducibility": 1.0
+  }
+}

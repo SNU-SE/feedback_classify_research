@@ -1,0 +1,33 @@
+{
+  "experiment_date": "2026-01-30 14:23:40",
+  "config": {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "models": [
+      "mBERT",
+      "KLUE-BERT",
+      "KLUE-RoBERTa",
+      "KoELECTRA"
+    ],
+    "n_folds": 10,
+    "epochs": 5,
+    "batch_size": 32,
+    "learning_rate": 2e-05,
+    "max_length": 128,
+    "reproducibility_runs": 3
+  },
+  "best_model": {
+    "name": "KLUE-BERT",
+    "cv_accuracy": 0.9399045282928119,
+    "test_accuracy": 0.9399038461538461,
+    "test_macro_f1": 0.9128110387079502,
+    "agreement_rate": 1.0,
+    "cross_seed_acc": 0.9787660256410257,
+    "overall_score": 0.9538866157553939
+  },
+  "num_labels": 7,
+  "device": "mps"
+}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "20260219_154704",
+  "model": "gpt-4o",
+  "prompt": "P10_CER_bio_classification",
+  "n_samples": 193,
+  "accuracy": 0.6683937823834197,
+  "f1_macro": 0.611522899758194,
+  "f1_weighted": 0.6599102490294201,
+  "kappa": 0.5873450706578024
+}

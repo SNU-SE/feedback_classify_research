@@ -1,0 +1,30 @@
+{
+  "Date": "2026-02-01 10:47:10",
+  "Seeds": [
+    42,
+    43,
+    44
+  ],
+  "Models": [
+    "GPT-4o mini",
+    "Solar-Pro3",
+    "GPT-4o"
+  ],
+  "Prompts": [
+    "P0_zero-shot_rubric",
+    "P2_few-shot_cot_v3",
+    "P2_few-shot_cot_v6"
+  ],
+  "N_Repeats": 3,
+  "Total_Combinations": 27,
+  "Best_Combination": {
+    "Model": "GPT-4o",
+    "Prompt": "P2_few-shot_cot_v3",
+    "Accuracy_Mean": 0.6247,
+    "Accuracy_Std": 0.0046,
+    "F1_Macro_Mean": 0.6524,
+    "F1_Macro_Std": 0.0095,
+    "Kappa_Mean": 0.5414,
+    "Reproducibility": 0.9535
+  }
+}

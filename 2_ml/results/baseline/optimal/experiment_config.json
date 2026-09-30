@@ -1,0 +1,61 @@
+{
+  "Date": "2026-02-11 14:52:43",
+  "Experiment": "Optimal Ensemble Search (Condorcet-based)",
+  "Seeds": [
+    42,
+    43,
+    44
+  ],
+  "Vectorization": "V1_Word",
+  "CV_Folds": 10,
+  "CV_Method": "Stratified K-Fold",
+  "Ensemble_Combinations": {
+    "C1_Optimal5": [
+      "SVM-L",
+      "CNB",
+      "DT",
+      "GB",
+      "XGB"
+    ],
+    "C2_Alt5": [
+      "LR",
+      "SVM-L",
+      "DT",
+      "GB",
+      "XGB"
+    ],
+    "C3_Optimal3": [
+      "LR",
+      "SVM-RBF",
+      "XGB"
+    ],
+    "C4_Prev4": [
+      "LR",
+      "SVM-L",
+      "CNB",
+      "RF"
+    ],
+    "C5_Prev5": [
+      "LR",
+      "SVM-RBF",
+      "CNB",
+      "RF",
+      "LGBM"
+    ]
+  },
+  "Ensemble_Methods": [
+    "Hard Voting",
+    "Soft Voting",
+    "Stacking"
+  ],
+  "Total_Experiments": 45,
+  "Best_Result": {
+    "Combo": "C1_Optimal5",
+    "Models": "SVM-L + CNB + DT + GB + XGB",
+    "Method": "Hard Voting",
+    "N_Models": 5,
+    "Accuracy_Mean": 0.8502,
+    "F1_Macro_Mean": 0.7809,
+    "Kappa_Mean": 0.8081
+  }
+}

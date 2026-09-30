@@ -1,0 +1,2 @@
+prompt_version,accuracy_mean,accuracy_std,f1_macro_mean,f1_macro_std,kappa_mean,kappa_std,mean_confidence_mean
+P2_few-shot_cot_v6,0.7131,0.006,0.6558,0.0048,0.6322,0.0075,0.9966

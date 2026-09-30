@@ -1,0 +1,33 @@
+{
+  "timestamp": "20260210_235705",
+  "model": "gpt-4o",
+  "prompt_1": "P10_CER_bio_classification",
+  "prompt_2": "P9_P6_hard_tiebreak",
+  "bert_model": "KLUE-BERT_seed44",
+  "n_samples": 193,
+  "n_agree": 155,
+  "n_disagree": 38,
+  "results": [
+    {
+      "Method": "LLM_P1 (P10_CER_bio_classification)",
+      "Accuracy": 0.6528,
+      "F1_Macro": 0.6126,
+      "Kappa": 0.5623,
+      "N_Samples": 193
+    },
+    {
+      "Method": "LLM_P2 (P9_P6_hard_tiebreak)",
+      "Accuracy": 0.5803,
+      "F1_Macro": 0.5408,
+      "Kappa": 0.4791,
+      "N_Samples": 193
+    },
+    {
+      "Method": "Hybrid (P1+P2+BERT)",
+      "Accuracy": 0.6684,
+      "F1_Macro": 0.6126,
+      "Kappa": 0.5829,
+      "N_Samples": 193
+    }
+  ]
+}

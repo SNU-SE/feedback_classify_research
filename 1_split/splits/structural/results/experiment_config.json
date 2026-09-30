@@ -1,0 +1,83 @@
+{
+  "Date": "2026-03-01 02:10:56",
+  "Random_Seed": 42,
+  "CV_Folds": 10,
+  "Vectorization": "V1_Word (TF-IDF, lemma, ngram 1-2)",
+  "Individual_Models": [
+    "LR",
+    "SVM-L",
+    "SVM-RBF",
+    "CNB",
+    "DT",
+    "RF",
+    "GB",
+    "XGB",
+    "LGBM"
+  ],
+  "Ensemble_Combos": {
+    "C1_Optimal5": [
+      "SVM-L",
+      "CNB",
+      "DT",
+      "GB",
+      "XGB"
+    ],
+    "C2_Alt5": [
+      "LR",
+      "SVM-L",
+      "DT",
+      "GB",
+      "XGB"
+    ],
+    "C3_Optimal3": [
+      "LR",
+      "SVM-RBF",
+      "XGB"
+    ],
+    "C4_Prev4": [
+      "LR",
+      "SVM-L",
+      "CNB",
+      "RF"
+    ],
+    "C5_Prev5": [
+      "LR",
+      "SVM-RBF",
+      "CNB",
+      "RF",
+      "LGBM"
+    ]
+  },
+  "Ensemble_Methods": [
+    "Hard Voting",
+    "Soft Voting",
+    "Stacking"
+  ],
+  "Strategies": {
+    "S1": {
+      "train_n": 1060,
+      "test_n": 1020
+    },
+    "S1+S4": {
+      "train_n": 560,
+      "test_n": 540
+    },
+    "S2": {
+      "train_n": 1560,
+      "test_n": 520
+    },
+    "S2+S4": {
+      "train_n": 1170,
+      "test_n": 130
+    },
+    "S3": {
+      "train_n": 1570,
+      "test_n": 510
+    },
+    "S3+S4": {
+      "train_n": 1180,
+      "test_n": 130
+    }
+  },
+  "Total_Experiments": 144
+}

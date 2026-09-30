@@ -1,0 +1,31 @@
+# Virtual environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# API keys
+.env
+
+# BERT trained models (too large for Git, ~10.6GB)
+# Consider uploading to HuggingFace Hub
+*.safetensors
+*.bin
+**/models/mBERT_*/
+**/models/KLUE-BERT_*/
+**/models/KLUE-RoBERTa_*/
+**/models/KoELECTRA_*/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Temporary / cache files
+*.tmp
+*.pkl
+
+# Claude memory files
+CLAUDE.md

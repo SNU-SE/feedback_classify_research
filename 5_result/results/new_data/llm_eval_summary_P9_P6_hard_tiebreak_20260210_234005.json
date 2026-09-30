@@ -1,0 +1,10 @@
+{
+  "timestamp": "20260210_234005",
+  "model": "gpt-4o",
+  "prompt": "P9_P6_hard_tiebreak",
+  "n_samples": 193,
+  "accuracy": 0.5854922279792746,
+  "f1_macro": 0.554373383538978,
+  "f1_weighted": 0.5759401165003414,
+  "kappa": 0.4855391176862588
+}

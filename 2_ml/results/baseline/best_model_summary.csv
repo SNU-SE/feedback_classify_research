@@ -1,0 +1,2 @@
+﻿Best_CV_Model,Best_CV_F1_Macro,Best_Test_Model,Best_Test_F1_Macro,Best_Test_Accuracy,Best_Test_Kappa
+Soft Voting,0.7379265546560889,SVM (Linear),0.7754718940834158,0.8413461538461539,0.7978991998704482

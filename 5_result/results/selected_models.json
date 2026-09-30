@@ -1,0 +1,8 @@
+{
+  "ml": "XGBoost",
+  "llm": {
+    "model": "gpt-4o",
+    "prompt_version": "P2_v4.0",
+    "prompt_file": "P2_few-shot_cot_v4"
+  }
+}

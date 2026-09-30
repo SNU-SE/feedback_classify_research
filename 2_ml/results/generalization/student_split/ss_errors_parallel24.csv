@@ -1,0 +1,4 @@
+Split,Model,Error
+40:60_seed123,C1_Optimal5_Stacking,"Invalid classes inferred from unique values of `y`.  Expected: [0 1 2 3 4 5], got [1 2 3 4 5 6]"
+40:60_seed123,C2_Alt5_Stacking,"Invalid classes inferred from unique values of `y`.  Expected: [0 1 2 3 4 5], got [1 2 3 4 5 6]"
+40:60_seed123,C3_Optimal3_Stacking,"Invalid classes inferred from unique values of `y`.  Expected: [0 1 2 3 4 5], got [1 2 3 4 5 6]"

@@ -1,0 +1,39 @@
+# 동료 피드백 자동 분류 시스템 - 통합 의존성
+# Python 3.10+ 권장
+
+# ===== 공통 =====
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0           # Excel 파일 읽기/쓰기
+scikit-learn>=1.3.0       # ML 모델 + 평가 지표 (Kappa, F1 등)
+tqdm>=4.65.0              # 진행률 표시
+
+# ===== 시각화 =====
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ===== Jupyter =====
+jupyterlab>=4.0.0
+ipywidgets>=8.0.0
+
+# ===== ML (2_ml) =====
+xgboost>=2.0.0            # XGBoost 분류기
+lightgbm>=4.0.0           # LightGBM 분류기
+kiwipiepy>=0.18.0         # 한국어 형태소 분석기 (토큰화)
+joblib>=1.3.0             # 병렬 처리 + 모델 저장
+scipy>=1.9.0              # 통계 분석 (투표, 검정 등)
+
+# ===== BERT (3_bert) =====
+transformers>=4.40.0      # BERT 계열 모델
+accelerate>=0.27.0        # 학습 가속
+torch>=2.0.0              # PyTorch (MPS/CUDA)
+safetensors>=0.4.0        # 모델 저장 형식
+
+# ===== LLM (4_llm) =====
+openai>=1.0.0             # GPT-4o API
+huggingface_hub>=0.20.0   # HuggingFace Inference API
+datasets>=2.13.0          # HuggingFace datasets 라이브러리
+python-dotenv>=1.0.0      # .env 파일 로딩
+pyyaml>=6.0               # YAML 설정
+tenacity>=8.0.0           # API 재시도 로직
+tiktoken>=0.5.0           # OpenAI 토큰 추정 (비용 계산)

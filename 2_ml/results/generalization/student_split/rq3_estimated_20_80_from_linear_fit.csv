@@ -1,0 +1,2 @@
+Train_Pct,Estimated_Mean_Kappa,Estimated_Best_Kappa,Estimated_Mean_F1,Estimated_Best_F1,Note
+20,0.5909684870195886,0.7099098333037465,0.558214412853075,0.5816028068762688,Observed ratios(40~80) linear extrapolation; run actual 20:80 for confirm.

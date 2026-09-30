@@ -1,0 +1,2 @@
+﻿Date,Tokenizer,POS_Filter,Vectorization,N_Classifiers,N_Ensembles,N_Folds,Random_State,Train_Size,Test_Size,N_Classes,Best_CV_Feature,Best_CV_Classifier,Best_CV_F1_Macro,Best_Test_Model,Best_Test_F1_Macro,Best_Test_Accuracy,Best_Test_Kappa
+2026-01-27 23:14:29,Kiwi (Lemmatization),"N, V, Adj, Adv","V1 (Word), V2 (Char), V3 (Chi2)",11,3,10,42,1664,416,7,V3_Chi2_963,SVM-L,0.7174367103484804,SVM-L,0.8143691728313589,0.8725961538461539,0.8377475402356369

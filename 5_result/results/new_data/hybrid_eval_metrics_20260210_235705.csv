@@ -1,0 +1,4 @@
+Method,Accuracy,F1_Macro,Kappa,N_Samples
+LLM_P1 (P10_CER_bio_classification),0.6528,0.6126,0.5623,193
+LLM_P2 (P9_P6_hard_tiebreak),0.5803,0.5408,0.4791,193
+Hybrid (P1+P2+BERT),0.6684,0.6126,0.5829,193
